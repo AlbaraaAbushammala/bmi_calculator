@@ -4,7 +4,7 @@ class InfoScreen extends StatelessWidget {
   const InfoScreen({Key? key}) : super(key: key);
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context)  {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.blueGrey[800],
@@ -26,11 +26,12 @@ class InfoScreen extends StatelessWidget {
         child: Padding(
           padding: const EdgeInsets.all(15.0),
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children:
             [
             Text(
-              "Von Baraa Abshammala das APP entwicklt \n"
-                  "czc@hotmail.com \n"
+              "Baraa Abshammala\n"
+                  "czc@hotmail.com\n"
                   "+491732697710",
               style: TextStyle(
                 fontSize: 18,
