@@ -4,7 +4,7 @@ import 'package:bmi_calculator/home_screen.dart';
 import 'package:bmi_calculator/info_screen.dart';
 import 'package:flutter/material.dart';
 
-void main() {
+void main(){
 
   runApp(MyApp());
 }
