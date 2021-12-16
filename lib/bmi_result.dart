@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:fl_chart/fl_chart.dart';
 
-class BmiResultScreen extends StatelessWidget {
+class BmiResultScreen extends StatelessWidget{
 
   final bool? isMale;
   final double? result;

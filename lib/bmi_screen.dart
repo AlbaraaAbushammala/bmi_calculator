@@ -64,7 +64,7 @@ class _BmiScreenState extends State<BmiScreen> {
           color: Colors.blueGrey[800],
           child: Column(
 
-            children: [
+            children:[
               _DefultHeightEmpty(5),
               Expanded(
                 child: Padding(

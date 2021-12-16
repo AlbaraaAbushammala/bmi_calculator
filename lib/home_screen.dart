@@ -10,7 +10,7 @@ class BmiHomeScreen extends StatefulWidget {
 
 class _BmiHomeScreenState extends State<BmiHomeScreen> {
   @override 
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context){
     return SafeArea(
       child: Scaffold(
         floatingActionButton: FloatingActionButton(
